@@ -1,0 +1,302 @@
+{
+    "country_name": "india",
+    "year": 2020,
+    "State": {
+        "Gujarat": [
+            {
+                "City": "surat",
+                "PlaceToVisit": [
+                    {
+                        "id": 1,
+                        "name": "dumas",
+                        "address": "Surat-Gujarat-395010",
+                        "VisitingFrom": "10/10/2020",
+                        "VisitingTo": "10/11/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "name": "hjira",
+                        "address": "Surat-Gujarat-395010",
+                        "VisitingFrom": "30/10/2020",
+                        "VisitingTo": "10/12/2020",
+                        "OpenForVisit": "No"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Suvali",
+                        "address": "Surat-Gujarat-395010",
+                        "VisitingFrom": "02/08/2020",
+                        "VisitingTo": "08/10/2020",
+                        "OpenForVisit": "Yes"
+                    }
+                ]
+            },
+            {
+                "City": "saputara",
+                "PlaceToVisit": [
+                    {
+                        "id": 1,
+                        "name": "hill",
+                        "address": "Saputara-Gujarat-395010",
+                        "VisitingFrom": "05/07/2019",
+                        "VisitingTo": "10/10/2020",
+                        "OpenForVisit": "No"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Giradhodh",
+                        "address": "Spautara-Gujarat-395010",
+                        "VisitingFrom": "30/08/2020",
+                        "VisitingTo": "10/11/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Giradhodh",
+                        "address": "Saputara-Gujarat-395010",
+                        "VisitingFrom": "09/08/2020",
+                        "VisitingTo": "11/10/2020",
+                        "OpenForVisit": "No"
+                    }
+                ]
+            },
+            {
+                "City": "Rajkot",
+                "PlaceToVisit": [
+                    {
+                        "id": 1,
+                        "name": "Gondal",
+                        "address": "Rajkot-Gujarat-395010",
+                        "VisitingFrom": "11/08/2020",
+                        "VisitingTo": "09/10/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Lodhika",
+                        "address": "Rajkot-Gujarat-395010",
+                        "VisitingFrom": "30/08/2020",
+                        "VisitingTo": "10/11/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Kotda",
+                        "address": "rajkot-Gujarat-395010",
+                        "VisitingFrom": "09/08/2020",
+                        "VisitingTo": "11/10/2020",
+                        "OpenForVisit": "Yes"
+                    }
+                ]
+            },
+            {
+                "City": "ahmdavad",
+                "PlaceToVisit": [
+                    {
+                        "id": 1,
+                        "name": "Gondal",
+                        "address": "Rajkot-Gujarat-395010",
+                        "VisitingFrom": "11/08/2020",
+                        "VisitingTo": "09/10/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Lodhika",
+                        "address": "Rajkot-Gujarat-395010",
+                        "VisitingFrom": "30/08/2020",
+                        "VisitingTo": "10/11/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Kotda",
+                        "address": "rajkot-Gujarat-395010",
+                        "VisitingFrom": "09/08/2020",
+                        "VisitingTo": "11/10/2020",
+                        "OpenForVisit": "Yes"
+                    }
+                ]
+            }
+        ],
+        "Rajshthan": [
+            {
+                "City": "udaipur",
+                "PlaceToVisit": [
+                    {
+                        "id": 1,
+                        "name": "fort",
+                        "address": "udaipur-rajshtanh-395010",
+                        "VisitingFrom": "08/09/2020",
+                        "VisitingTo": "10/10/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "name": "kakriyalek",
+                        "address": "udaipur-rajshtan-395010",
+                        "VisitingFrom": "17/10/2020",
+                        "VisitingTo": "09/12/2020",
+                        "OpenForVisit": "No"
+                    },
+                    {
+                        "id": 3,
+                        "name": "chandanfort",
+                        "address": "udaipur-rajshtan-395010",
+                        "VisitingFrom": "02/08/2020",
+                        "VisitingTo": "08/10/2020",
+                        "OpenForVisit": "Yes"
+                    }
+                ]
+            },
+            {
+                "City": "jaypur",
+                "PlaceToVisit": [
+                    {
+                        "id": 1,
+                        "name": "rajfort",
+                        "address": "jaypur-rajshtan-395010",
+                        "VisitingFrom": "05/07/2020",
+                        "VisitingTo": "10/09/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Swagetmehel",
+                        "address": "Jaypur-Rajshtan-395010",
+                        "VisitingFrom": "30/07/2020",
+                        "VisitingTo": "10/11/2020",
+                        "OpenForVisit": "No"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Kamalbag",
+                        "address": "jaypur-rajshtan-395010",
+                        "VisitingFrom": "09/08/2020",
+                        "VisitingTo": "11/09/2020",
+                        "OpenForVisit": "Yes"
+                    }
+                ]
+            },
+            {
+                "City": "jaslmer",
+                "PlaceToVisit": [
+                    {
+                        "id": 1,
+                        "name": "vaghaborder",
+                        "address": "jaslmer-rajshtan-395010",
+                        "VisitingFrom": "11/08/2018",
+                        "VisitingTo": "09/10/2020",
+                        "OpenForVisit": "No"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Krnikabag",
+                        "address": "Jaslmer-rajshtan-395010",
+                        "VisitingFrom": "30/08/2019",
+                        "VisitingTo": "10/12/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 3,
+                        "name": "kalimaa",
+                        "address": "jaslmer-rajshtan-395010",
+                        "VisitingFrom": "09/07/2019",
+                        "VisitingTo": "11/10/2021",
+                        "OpenForVisit": "Yes"
+                    }
+                ]
+            }
+        ],
+        "Maharastra": [
+            {
+                "City": "mumbai",
+                "PlaceToVisit": [
+                    {
+                        "id": 1,
+                        "name": "juhuchopati",
+                        "address": "mumbai-maharastra-395010",
+                        "VisitingFrom": "11/10/2020",
+                        "VisitingTo": "10/11/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "name": "ajanta-ilora",
+                        "address": "mumbai-maharastra-395010",
+                        "VisitingFrom": "20/10/2020",
+                        "VisitingTo": "10/12/2020",
+                        "OpenForVisit": "No"
+                    },
+                    {
+                        "id": 3,
+                        "name": "GetwayOfIndia",
+                        "address": "mumbai-maharastra-395010",
+                        "VisitingFrom": "15/08/2019",
+                        "VisitingTo": "08/10/2020",
+                        "OpenForVisit": "Yes"
+                    }
+                ]
+            },
+            {
+                "City": "pune",
+                "PlaceToVisit": [
+                    {
+                        "id": 1,
+                        "name": "lonaval",
+                        "address": "pune-maharstra-395010",
+                        "VisitingFrom": "25/08/2020",
+                        "VisitingTo": "10/10/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "name": "khndala",
+                        "address": "pune-maharastra-395010",
+                        "VisitingFrom": "16/08/2020",
+                        "VisitingTo": "20/11/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 3,
+                        "name": "manikamandir",
+                        "address": "pune-maharastra-395010",
+                        "VisitingFrom": "25/08/2020",
+                        "VisitingTo": "11/10/2020",
+                        "OpenForVisit": "Yes"
+                    }
+                ]
+            },
+            {
+                "City": "Navi-mubabi",
+                "PlaceToVisit": [
+                    {
+                        "id": 1,
+                        "name": "Gondal",
+                        "address": "Rajkot-Gujarat-395010",
+                        "VisitingFrom": "11/08/2020",
+                        "VisitingTo": "09/10/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Lodhika",
+                        "address": "Rajkot-Gujarat-395010",
+                        "VisitingFrom": "30/08/2020",
+                        "VisitingTo": "10/11/2020",
+                        "OpenForVisit": "Yes"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Kotda",
+                        "address": "rajkot-Gujarat-395010",
+                        "VisitingFrom": "09/08/2020",
+                        "VisitingTo": "11/10/2020",
+                        "OpenForVisit": "Yes"
+                    }
+                ]
+            }
+        ]
+    }
+}
