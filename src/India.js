@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-
+import { Alert, notification } from "antd";
 import _, { values } from "lodash";
 import PlaceList from "./PlaceList";
+
 let StateDb = require("./db.json");
 
 function India() {
@@ -14,6 +15,7 @@ function India() {
   const [SelectedRecord, setSelectedRecord] = useState();
   const [searched, setSearched] = useState("");
   const [StateDataAll, setStateDataAll] = useState([]);
+
   const getStateName = () => {
     let StateName = Object.keys(StateData.State);
     setStateName(StateName);
@@ -59,6 +61,58 @@ function India() {
   }, [selectedCity]);
 
   // EVENT
+  const DeleteRecord = (val) => {
+    var Place = _.cloneDeep(PlaceData);
+    const openNotification = () => {
+      const args = {
+        description: "You Delete" + val.name + " Record",
+        duration: 0,
+      };
+      notification.open(args);
+    };
+    // var fil = Place.filter(function (e) {
+    //   return e.id === val.id;
+    // });
+
+    // Place.splice(
+    //   Place.findIndex((a) => a.id === fil.id),
+    //   1
+    // );
+
+    // console.log("Befor:", Place);
+    // var B = Place.findIndex((a) => a.id === val.id);
+    // delete Place[B];
+    // //var newArray = Place.filter((value) => Object.keys(value).length !== 0);
+
+    // console.log("After:", Place);
+    // setPlaceData(Place);
+    const B = Place.filter((ele) => {
+      return ele.id !== val.id;
+    });
+    openNotification();
+    setPlaceData(B);
+    // function arrayRemove(arr, value) {
+    //   return arr.filter((ele) => {
+    //     return ele !== value;
+    //   });
+    // }
+    // arrayRemove(Place, val);
+    // method1
+    // console.log("Befor:", Place);
+    // Place.splice(
+    //   Place.findIndex((a) => a.id === val.id),
+    //   1
+    // );
+    // console.log("After:", Place);
+    // setPlaceData(Place);
+
+    // Place.map((value) => {
+    //   if (value.id == val.id) {
+    //     return Object.assign(value, SelectedRecord);
+    //   }
+    //   setPlaceData(Place);
+    // });
+  };
 
   const onSelectedRecord = (name) => {
     setSelectedRecord(name);
@@ -76,12 +130,6 @@ function India() {
 
   const onSaveEvent = () => {
     var Place = _.cloneDeep(PlaceData);
-
-    // for (var i in Place) {
-    //   if (Place[i].id == SelectedRecord.id) {
-    //     Place[i] = SelectedRecord;
-    //   }
-    // }
 
     Place.map((value) => {
       if (value.id == SelectedRecord.id) {
@@ -139,6 +187,7 @@ function India() {
         CloseEvent={CloseEvent}
         InputData={InputData}
         onSaveEvent={onSaveEvent}
+        DeleteRecord={DeleteRecord}
       />
     </div>
   );

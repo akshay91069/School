@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form_div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .form {
+    padding: 20px;
+    background-color: rgb(224, 224, 224);
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .btn_submit {
+      width: 100%;
+      padding: 5px;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      margin-top: 10px;
+    }
+
+    .inp {
+      margin-top: 10px;
+    }
+  }
+}
+
+.header {
+  box-shadow: 31px 31px 61px #bababa, -31px -31px 61px #ffffff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  height: 100vh;
+  width: 30vh;
+  background-color: rgb(221, 221, 221);
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .Link {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+  }
+}
+
+///@at-root
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.MainContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
